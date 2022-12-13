@@ -1,0 +1,119 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    word-spacing: 2px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#count{
+    color: steelblue;
+    background-color: none;
+    min-width: 200px;
+    text-align: center;
+    margin-right: 10px;
+}
+#score{
+    color: white;
+    background-color: steelblue;
+    height: inherit;
+    min-width: 150px;
+    transition: 0.5s;
+}
+#score:hover{
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+    color: steelblue;
+}
+#menu2{
+    border-top: steelblue solid 2px;
+    background-color: white;
+    text-align: center;
+    height: 46px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+
+#menu {
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    color: steelblue;
+    padding: 0;
+    height: inherit;
+}
+
+
+#message {
+    min-width: 10%;
+    margin: 0 5px;
+    padding: 0 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+    color: steelblue;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px;
+    font-weight: 400;
+    transition: all 0.5s;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+
+#container {
+    padding: 0;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: center;
+    transition: display 1s;
+    color: white;
+}
+
+
+.square {
+    width: 23%;
+    padding-bottom: 23%;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 6px;
+    border-radius: 12%;
+    display: inline-block;
+    transition: all 1s;
+}
+
+
+.selected {
+    background-color: steelblue;
+    color: white;
+    font-weight: 600;
+}
+a[title="Script Hosting"]{
+    display: none;
+}
+.invisible{
+    display: none;
+}
